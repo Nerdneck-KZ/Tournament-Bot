@@ -6,7 +6,7 @@
 In the `.env` file specify your DISCORD_TOKEN, ROLE_NAME, and TOURNAMENT_CHANNEL_NAME.
 
 # Running
-`node -r dotenv/config bot.js`
+`node -r dotenv/config bot.js` or deploy with `pm2`
 
 # Usage 
 * `?start` - Starts a heat. Everyone who reacts to the message will get the role.
